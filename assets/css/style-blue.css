@@ -10588,7 +10588,8 @@ a.scroll-top.show {
 	background-repeat: no-repeat;
 	background-position: center bottom;
 	min-height: 550px;
-	height: 100%;
+	max-height: 650px;
+	/* height: 100%; */
 }
 
 .feature-background__image .swiper-container{
@@ -10683,7 +10684,7 @@ a.scroll-top.show {
 .feature-list li {
 	font-size: 0.9375rem;
 	position: relative;
-	margin-bottom: 25px;
+	margin-bottom: 15px;
 	padding-left: 30px;
 	line-height: 1.66;
 }
@@ -12972,6 +12973,11 @@ a.scroll-top.show {
 	padding-bottom: 30px;
 }
 
+.section-space--inner--40 {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
 .section-space--inner--50 {
 	padding-top: 50px;
 	padding-bottom: 50px;
@@ -13317,6 +13323,7 @@ a.scroll-top.show {
 	position: static;
 	width: 100%;
 	min-height: 500px;
+	
 }
 
 
