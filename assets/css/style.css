@@ -5795,7 +5795,7 @@ input::placeholder {
 	display: block;
 	width: 50px;
 	height: 4px;
-	background-color: #ffc246;
+	/* background-color: #ffc246; */
 	position: absolute;
 	left: 0;
 	bottom: 0;
@@ -12732,7 +12732,7 @@ a.scroll-top.show {
 .single-list-blog-post__media .blog-post-big-quote {
 	position: relative;
 	padding: 63px 100px 67px;
-	background: url("../img/blog/blog-quote-icon.png") no-repeat 65px 35px;
+	/* background: url("../img/blog/blog-quote-icon.png") no-repeat 65px 35px; */
 	border: 2px solid #ffc246;
 	background-color: rgba(254, 188, 53, 0.18);
 }
