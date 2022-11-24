@@ -8647,7 +8647,7 @@ a.scroll-top.show {
 =            brand logo slider            =
 =============================================*/
 
-.brand-logo-slider__container-area {
+/* .brand-logo-slider__container-area {
 	margin: -20px;
 }
 
@@ -8698,6 +8698,13 @@ a.scroll-top.show {
 	-webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
 	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
 }
+
+.brand-logo-grid__single .active {
+	border-color: transparent;
+	background: #fff;
+	-webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+} */
 
 /*=====  End of brand logo slider  ======*/
 

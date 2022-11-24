@@ -8525,11 +8525,43 @@ a.scroll-top.show {
 	position: relative;
 }
 
+
+/* .brand-logo-grid__single {
+	border: 1px solid #eee;
+	text-align: center;
+	padding: 20px;
+	margin-bottom: 30px;
+	min-height: 140px;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+	-o-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+	transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
 .brand-logo-slider__single .image {
 	-webkit-transition: all .4s linear;
 	-o-transition: all .4s linear;
 	transition: all .4s linear;
 }
+
+
+.brand-logo-grid__single:hover {
+	border-color: transparent;
+	background: #fff;
+	-webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+} */
 
 .brand-logo-grid__single {
 	border: 1px solid #eee;
@@ -8554,12 +8586,24 @@ a.scroll-top.show {
 	transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
-.brand-logo-grid__single:hover {
+.active {
 	border-color: transparent;
 	background: #fff;
 	-webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
 	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+} 
+
+.brand-logo-slider__single .image {
+	-webkit-transition: all .4s linear;
+	-o-transition: all .4s linear;
+	transition: all .4s linear;
 }
+
+
+
+
+
+
 
 /*=====  End of brand logo slider  ======*/
 

@@ -67,6 +67,9 @@
   /*=====  End of menu sticky and scroll to top  ======*/
 
   windows.on("load", function () {
+    
+
+
     /*=============================================
         =            preloader active            =
         =============================================*/

@@ -266,9 +266,8 @@
                         </div>
                         <div class="brand-logo-grid__wrapper section-space--bottom--50">
                             <div class="row">
-
                                 <div class="col-md-3 col-4">
-                                    <div class="brand-logo-grid__single">
+                                    <div class="brand-logo-grid__single active">
                                         <div class="brand-logo-slider__single">
                                             <div class="image">
                                                 <img src="assets/img/brand-logo/alba.png" class="img-fluid" alt="">
@@ -1202,6 +1201,37 @@
 
     <!-- Main JS -->
     <script src="assets/js/main.js"></script>
+    <!-- jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            const animation = () => {
+                const mainElement = $('.brand-logo-grid__single');
+                const activeCarouselElement = $('.brand-logo-grid__single.active');
+                activeCarouselElement.removeClass('active');
+
+                const nextCarouselElement = $( ":nth-child(0n - 1)" ).next(mainElement);
+                console.log(nextCarouselElement);
+                
+                // const nextCarouselElement = activeCarouselElement.next('brand-logo-grid__single').length ? activeCarouselElement.next('brand-logo-grid__single') : activeCarouselElement.siblings()[0];
+                // console.log(activeCarouselElement.next('brand-logo-grid__single'));
+                 $(nextCarouselElement).addClass('active');
+            };
+            
+            let animationInterval = setInterval(animation, 3500);
+
+            $(".brand-logo-grid__single").hover(function() {
+                $('.brand-logo-grid__single.active').removeClass("active");
+                $(this).addClass("active");
+                clearInterval(animationInterval);
+            });
+            
+            $(".brand-logo-grid__single").mouseleave(function() {
+                animationInterval = setInterval(animation, 3500);
+            });
+        });       
+    </script>
 
 
 </body>
