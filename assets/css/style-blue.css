@@ -4850,11 +4850,13 @@ input::placeholder {
 
 .sidebar-category li a:hover {
 	background-color: #2725fc;
+	border: 2px solid #ffc246;
 	color: #fff;
 }
 
 .sidebar-category li.active a {
 	background-color: #2725fc;
+	border: 2px solid #ffc246;
 	color: #fff;
 }
 
@@ -11846,7 +11848,7 @@ a.scroll-top.show {
 	-webkit-justify-content: space-between;
 	-ms-flex-pack: justify;
 	justify-content: space-between;
-	border: 2px solid #2725fc;
+	border: 2px solid #ffc246;
 	margin-top: -30px;
 }
 
@@ -11862,7 +11864,7 @@ a.scroll-top.show {
 	color: #222;
 	background-color: #ffffff;
 	cursor: pointer;
-	border-right: 2px solid #2725fc;
+	border-right: 2px solid #ffc246;
 	font-weight: 700;
 	font-size: 0.8125rem;
 	letter-spacing: .5px;
@@ -11891,7 +11893,7 @@ a.scroll-top.show {
 
 .project-filter-menu li.active,
 .project-filter-menu li:hover {
-	color: #f7be63;
+	color: #ffffff;
 }
 
 .project-filter-menu li:hover:after,
@@ -11922,7 +11924,8 @@ a.scroll-top.show {
 }
 
 .single-case-study-project {
-	background: #ffffff;
+	background-color: rgba(4, 50, 168, 0.8);
+	border: 2px solid #ffc246;
 	-webkit-box-shadow: 0 30px 50px rgba(0, 0, 0, 0.06);
 	box-shadow: 0 30px 50px rgba(0, 0, 0, 0.06);
 	margin-bottom: 30px;
@@ -11935,6 +11938,10 @@ a.scroll-top.show {
 	-webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
 	-o-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
 	transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.single-case-study-project h4 {
+	color: #f1f1f1;
 }
 
 .single-case-study-project__image {
@@ -12014,11 +12021,11 @@ a.scroll-top.show {
 	width: 100%;
 	height: 100%;
 	border-radius: 5px;
-	background: rgba(0, 0, 0, 0.7);
+	/* background: rgba(0, 0, 0, 0.7);
 	background: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(76%, #000));
 	background: -webkit-linear-gradient(top, transparent 0%, #000 76%);
 	background: -o-linear-gradient(top, transparent 0%, #000 76%);
-	background: linear-gradient(-180deg, transparent 0%, #000 76%);
+	background: linear-gradient(-180deg, transparent 0%, #000 76%); */
 	content: "";
 	z-index: 1;
 }
@@ -12057,7 +12064,7 @@ a.scroll-top.show {
 	display: none;
 }
 
-.single-case-study-project--style2:hover .case-readmore {
+ .single-case-study-project--style2:hover .case-readmore {
 	background-color: #2725fc;
 }
 
@@ -12073,7 +12080,7 @@ a.scroll-top.show {
 	-webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
 	-o-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
 	transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
-}
+} 
 
 .single-case-study-project--style2 .case-readmore i {
 	position: absolute;
@@ -12083,7 +12090,7 @@ a.scroll-top.show {
 	-ms-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
 	font-size: 24px;
-	color: #222;
+	color: #f1f1f1;
 }
 
 /*=====  End of project filter  ======*/

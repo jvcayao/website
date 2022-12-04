@@ -1767,5 +1767,124 @@
     }
   });
 
+  /*=============================================
+    =            Animation for client page      =
+    =============================================*/
+
+  const animationSA = () => {
+    const mainElementSA = $('div.brand-logo-grid__single');
+    const activeCarouselElementSA = $('.brand-logo-grid__single.active');
+    activeCarouselElementSA.removeClass('active');
+
+    let nextCarouselElementSA = activeCarouselElementSA.closest('div .col-md-3').next().find('div.brand-logo-grid__single');
+    
+
+    if (nextCarouselElementSA.length == 0) {
+        let nextCarouselElementSA = $('.brand-logo-grid__single').eq(0).addClass('active');
+    }
+    
+    $(nextCarouselElementSA).addClass('active');
+
+  };
+
+  let animationIntervalSA = setInterval(animationSA, 1500);
+
+  $(".brand-logo-grid__single").hover(function() {
+      $('.brand-logo-grid__single.active').removeClass("active");
+      $(this).addClass("active");
+      clearInterval(animationIntervalSA);
+  });
+
+  $(".brand-logo-grid__single").mouseleave(function() {
+      animationIntervalSA = setInterval(animationSA, 1500);
+  });
+
+  const animationClient = () => {
+    const mainElementClient = $('div.client-brand-logo-grid__single');
+    const activeCarouselElementClient = $('.client-brand-logo-grid__single.active');
+    activeCarouselElementClient.removeClass('active');
+
+    let nextCarouselElementClient = activeCarouselElementClient.closest('div .col-md-3').next().find('div.client-brand-logo-grid__single');
+    
+
+    if (nextCarouselElementClient.length == 0) {
+        let nextCarouselElementClient = $('.client-brand-logo-grid__single').eq(0).addClass('active');
+    }
+    
+    $(nextCarouselElementClient).addClass('active');
+
+  };
+
+  let animationIntervalClient = setInterval(animationClient, 1500);
+
+  $(".client-brand-logo-grid__single").hover(function() {
+      $('.client-brand-logo-grid__single.active').removeClass("active");
+      $(this).addClass("active");
+      clearInterval(animationIntervalClient);
+  });
+
+  $(".client-brand-logo-grid__single").mouseleave(function() {
+      animationIntervalClient = setInterval(animationClient, 1500);
+  });
+
+  const animationAwards = () => {
+    const mainElementAwards = $('div.award-item__single');
+    let activeCarouselElementAwards = $('.award-item__single.active');
+
+    activeCarouselElementAwards.removeClass("active");
+
+    let nextCarouselElementAwards = activeCarouselElementAwards.next();
+    
+    if (nextCarouselElementAwards.length == 0) {
+        let nextCarouselElementAwards = $('.award-item__single').eq(0).addClass('active');
+    }
+    
+    $(nextCarouselElementAwards).addClass('active');
+
+  };
+
+  let animationIntervalAwards = setInterval(animationAwards, 1500);
+
+  $(".award-item__single").hover(function() {
+      $('.award-item__single.active').removeClass("active");
+      $(this).addClass("active");
+      clearInterval(animationIntervalAwards);
+  });
+
+  $(".award-item__single").mouseleave(function() {
+      animationIntervalAwards = setInterval(animationAwards, 1500);
+  });
+
+  const animationQ = () => {
+    const mainElementQ = $('div.Q-award-item__single');
+    let activeCarouselElementQ = $('.Q-award-item__single.active');
+
+    activeCarouselElementQ.removeClass("active");
+
+    let nextCarouselElementQ = activeCarouselElementQ.next();
+    
+
+    if (nextCarouselElementQ.length == 0) {
+        let nextCarouselElementQ = $('.Q-award-item__single').eq(0).addClass('active');
+    }
+    
+    $(nextCarouselElementQ).addClass('active');
+
+  };
+
+  let animationIntervalQ = setInterval(animationQ, 1500);
+
+  $(".Q-award-item__single").hover(function() {
+      $('.Q-award-item__single.active').removeClass("active");
+      $(this).addClass("active");
+      clearInterval(animationIntervalQ);
+  });
+
+  $(".Q-award-item__single").mouseleave(function() {
+      animationIntervalQ = setInterval(animationQ, 1500);
+  });
+
+  
+
   /*=====  End of shipping form active  ======*/
 })(jQuery);
