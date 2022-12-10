@@ -1886,5 +1886,66 @@
 
   
 
+  
+
   /*=====  End of shipping form active  ======*/
 })(jQuery);
+
+function whenAnimationEnd(element, callback) {
+
+  if(element == null){
+    return;
+  }
+
+  element.addEventListener('animationend', callback, false);
+  element.addEventListener('webkitAnimationEnd', callback, false);
+  element.addEventListener('oanimationend', callback, false);
+  element.addEventListener('MSAnimationEnd', callback, false);
+}
+
+(function repeat() {
+  whenAnimationEnd(document.querySelector('.vm-blog-quote-text span:last-child'), function(e) {
+    var container = document.querySelector('.single-list-blog-post__media .blog-post-big-quote .vm-blog-quote-text');
+    var dupe = container.cloneNode(true);
+    
+    setTimeout(()=> {
+      container.parentNode.replaceChild(dupe, container);
+      repeat();
+    },5000)
+  });
+
+  whenAnimationEnd(document.querySelector('.vmm-blog-quote-text span:last-child'), function(e) {
+    var container = document.querySelector('.single-list-blog-post__media .blog-post-big-quote .vmm-blog-quote-text');
+    var dupe = container.cloneNode(true);
+    
+    setTimeout(()=> {
+      container.parentNode.replaceChild(dupe, container);
+      repeat();
+    },7500)
+  });
+
+  whenAnimationEnd(document.querySelector('.awrd-blog-quote-text span:last-child'), function(e) {
+    var container = document.querySelector('.blog-post-big-quote .awrd-blog-quote-text');
+    var dupe = container.cloneNode(true);
+    
+    setTimeout(()=> {
+      container.parentNode.replaceChild(dupe, container);
+      repeat();
+    },5000)
+  });
+
+  whenAnimationEnd(document.querySelector('.heading-logo-text span:last-child'), function(e) {
+    var container = document.querySelector('.heading-logo-text');
+    var dupe = container.cloneNode(true);
+    
+    setTimeout(()=> {
+      container.parentNode.replaceChild(dupe, container);
+      repeat();
+    },6000)
+  });
+
+  
+
+}());
+
+

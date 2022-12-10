@@ -11963,7 +11963,7 @@ a.scroll-top.show {
 }
 
 .single-case-study-project__content {
-	padding: 30px;
+	padding: 10px;
 }
 
 .single-case-study-project__content .title a {
@@ -12804,6 +12804,287 @@ a.scroll-top.show {
 	background-color: rgba(4, 50, 168, 0.8);
 }
 
+/*animation awards*/
+
+.single-list-blog-post__media .blog-post-big-quote .awrd-blog-quote-text {
+	font-size: 1.9rem;
+	line-height: 1.5;
+	font-weight: 500;
+	color: #FFF;
+	font-style: italic;
+	margin-bottom: 30px;
+	transform: scale(0.94);
+  	animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
+}
+
+.awrd-blog-quote-text span {
+	display: inline-block;
+	opacity: 0;
+	filter: blur(4px);
+	
+}
+
+.awrd-blog-quote-text span:nth-child(1) {
+	animation: faders 0.8s 0.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+	
+}
+
+.awrd-blog-quote-text span:nth-child(2) {
+	animation: faders 0.8s 0.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
+	
+}
+
+.awrd-blog-quote-text span:nth-child(3) {
+	animation: faders 0.8s 0.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
+	
+}
+
+.awrd-blog-quote-text span:nth-child(4) {
+	animation: faders 0.8s 0.4s forwards cubic-bezier(0.11, 0, 0.5, 0);
+	
+}
+
+.awrd-blog-quote-text span:nth-child(5) {
+	animation: faders 0.8s 0.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+	
+}
+
+.awrd-blog-quote-text span:nth-child(6) {
+	animation: faders 0.8s 0.6s forwards cubic-bezier(0.11, 0, 0.5, 0);
+	
+}
+
+.awrd-blog-quote-text span:nth-child(7) {
+	animation: faders 0.8s 0.7s forwards cubic-bezier(0.11, 0, 0.5, 0);
+	
+}
+
+.awrd-blog-quote-text span:nth-child(8) {
+	animation: faders 0.8s 0.8s forwards cubic-bezier(0.11, 0, 0.5, 0);
+	
+}
+
+.awrd-blog-quote-text span:nth-child(9) {
+	animation: faders 0.8s 0.9s forwards cubic-bezier(0.11, 0, 0.5, 0);
+	
+}
+
+.awrd-blog-quote-text span:nth-child(10) {
+	animation: faders 0.8s 1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+	
+}
+
+.awrd-blog-quote-text span:nth-child(11) {
+	animation: faders 0.8s 1.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
+	
+}
+
+/*animation mission*/
+
+.single-list-blog-post__media .blog-post-big-quote .vmm-blog-quote-text {
+	font-size: 1.9rem;
+	line-height: 1.5;
+	font-weight: 500;
+	color: #FFF;
+	font-style: italic;
+	margin-bottom: 30px;
+	transform: scale(0.94);
+  	animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
+}
+
+.vmm-blog-quote-text span {
+	display: inline-block;
+	opacity: 0;
+	filter: blur(4px);
+	
+}
+
+.vmm-blog-quote-text span:nth-child(1) {
+	animation: faders 0.8s 0.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
+	
+}
+
+.vmm-blog-quote-text span:nth-child(2) {
+	animation: faders 0.8s 0.4s forwards cubic-bezier(0.11, 0, 0.5, 0);
+	
+}
+
+.vmm-blog-quote-text span:nth-child(3) {
+	animation: faders 0.8s 0.6s forwards cubic-bezier(0.11, 0, 0.5, 0);
+	
+}
+
+.vmm-blog-quote-text span:nth-child(4) {
+	animation: faders 0.8s 0.8s forwards cubic-bezier(0.11, 0, 0.5, 0);
+	
+}
+
+.vmm-blog-quote-text span:nth-child(5) {
+	animation: faders 0.8s 1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+	
+}
+
+.vmm-blog-quote-text span:nth-child(6) {
+	animation: faders 0.8s 1.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
+	
+}
+
+.vmm-blog-quote-text span:nth-child(7) {
+	animation: faders 0.8s 1.4s forwards cubic-bezier(0.11, 0, 0.5, 0);
+	
+}
+
+.vmm-blog-quote-text span:nth-child(8) {
+	animation: faders 0.8s 1.6s forwards cubic-bezier(0.11, 0, 0.5, 0);
+	
+}
+
+.vmm-blog-quote-text span:nth-child(9) {
+	animation: faders 0.8s 1.8s forwards cubic-bezier(0.11, 0, 0.5, 0);
+	
+}
+
+
+
+/*animation vission*/
+
+.single-list-blog-post__media .blog-post-big-quote .vm-blog-quote-text {
+	font-size: 1.9rem;
+	line-height: 1.5;
+	font-weight: 500;
+	color: #FFF;
+	font-style: italic;
+	margin-bottom: 30px;
+	transform: scale(0.94);
+  	animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
+}
+
+.vm-blog-quote-text span {
+	display: inline-block;
+	opacity: 0;
+	filter: blur(4px);
+	
+}
+
+.vm-blog-quote-text span:nth-child(1) {
+	animation: faders 0.8s 0.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
+	
+}
+
+.vm-blog-quote-text span:nth-child(2) {
+	animation: faders 0.8s 0.4s forwards cubic-bezier(0.11, 0, 0.5, 0);
+	
+}
+
+.vm-blog-quote-text span:nth-child(3) {
+	animation: faders 0.8s 0.6s forwards cubic-bezier(0.11, 0, 0.5, 0);
+	
+}
+
+.vm-blog-quote-text span:nth-child(4) {
+	animation: faders 0.8s 0.8s forwards cubic-bezier(0.11, 0, 0.5, 0);
+	
+}
+
+.vm-blog-quote-text span:nth-child(5) {
+	animation: faders 0.8s 1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+	
+}
+
+.vm-blog-quote-text span:nth-child(6) {
+	animation: faders 0.8s 1.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
+	
+}
+
+.vm-blog-quote-text span:nth-child(7) {
+	animation: faders 0.8s 1.4s forwards cubic-bezier(0.11, 0, 0.5, 0);
+	
+}
+
+.vm-blog-quote-text span:nth-child(8) {
+	animation: faders 0.8s 1.6s forwards cubic-bezier(0.11, 0, 0.5, 0);
+	
+}
+
+.vm-blog-quote-text span:nth-child(9) {
+	animation: faders 0.8s 1.8s forwards cubic-bezier(0.11, 0, 0.5, 0);
+	
+}
+
+.vm-blog-quote-text span:nth-child(10) {
+	animation: faders 0.8s 2s forwards cubic-bezier(0.11, 0, 0.5, 0);
+	
+}
+
+.vm-blog-quote-text span:nth-child(11) {
+	animation: faders 0.8s 2.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
+	
+}
+
+.vm-blog-quote-text span:nth-child(12) {
+	animation: faders 0.8s 2.4s forwards cubic-bezier(0.11, 0, 0.5, 0);
+	
+}
+
+.vm-blog-quote-text span:nth-child(13) {
+	animation: faders 0.8s 2.6s forwards cubic-bezier(0.11, 0, 0.5, 0);
+	
+}
+
+.vm-blog-quote-text span:nth-child(14) {
+	animation: faders 0.8s 2.8s forwards cubic-bezier(0.11, 0, 0.5, 0);
+	
+}
+
+.vm-blog-quote-text span:nth-child(15) {
+	animation: faders 0.8s 3s forwards cubic-bezier(0.11, 0, 0.5, 0);
+	
+}
+
+.vm-blog-quote-text span:nth-child(16) {
+	animation: faders 0.8s 3.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
+	
+}
+
+.vm-blog-quote-text span:nth-child(17) {
+	animation: faders 0.8s 3.4s forwards cubic-bezier(0.11, 0, 0.5, 0);
+	
+}
+
+.vm-blog-quote-text span:nth-child(18) {
+	animation: faders 0.8s 3.6s forwards cubic-bezier(0.11, 0, 0.5, 0);
+	
+}
+
+.vm-blog-quote-text span:nth-child(19) {
+	animation: faders 0.8s 3.8s forwards cubic-bezier(0.11, 0, 0.5, 0);
+	
+}
+
+.vm-blog-quote-text span:nth-child(20) {
+	animation: faders 0.8s 4s forwards cubic-bezier(0.11, 0, 0.5, 0);
+	
+}
+
+.vm-blog-quote-text span:nth-child(21) {
+	animation: faders 0.8s 4.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
+	
+}
+
+.vm-blog-quote-text span:nth-child(22) {
+	animation: faders 0.8s 4.4s forwards cubic-bezier(0.11, 0, 0.5, 0);
+	
+}
+
+@keyframes faders {
+	100% {
+		opacity: 1;
+		filter: blur(0);
+	  }
+}
+
+/*animation vission mission*/
+
 .single-list-blog-post__media .blog-post-big-quote .blog-quote-text {
 	font-size: 1.5rem;
 	line-height: 1.5;
@@ -13058,6 +13339,181 @@ a.scroll-top.show {
 }
 
 /* blog post page */
+
+
+.a-quote-text:before {
+	position: absolute;
+	top: 50%;
+	left: 25px;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	content: '\f347';
+	font-family: Ionicons;
+	font-size: 1.5rem;
+	font-style: normal;
+	color: #ffc246;
+}
+
+
+.a-quote-text {
+	border: 2px solid #ffc246;
+	padding: 26px 30px 26px 75px;
+	font-size: 1.325rem;
+	line-height: 1.5;
+	font-style: italic;
+	font-weight: 600;
+	color: #fff;
+	position: relative;
+	margin: 30px 0;
+	background-color: rgba(4, 50, 168, 0.8);
+	
+}
+
+/*
+.a-quote-text h1{
+	font-size: 1.325rem;
+	line-height: 1.5;
+	font-style: italic;
+	font-weight: 600;
+	color: #fff;
+	position: relative;
+	transform: scale(0.94);
+  	animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
+	
+}
+
+@keyframes scale {
+	100% {
+	  transform: scale(1);
+	}
+}
+
+.a-quote-text span {
+	display: inline-block;
+	opacity: 0;
+	filter: blur(4px);
+}
+
+
+ .a-quote-text span:nth-child(1) {
+	animation: fade-in 0.8s 0.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+	
+}
+
+.a-quote-text span:nth-child(2) {
+	animation: fade-in 0.8s 0.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
+	
+}
+
+.a-quote-text span:nth-child(3) {
+	animation: fade-in 0.8s 0.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
+	
+} 
+
+@keyframes fade-in {
+	100% {
+		opacity: 1;
+		filter: blur(0);
+	  }
+}
+
+*/
+
+
+.a-quote-text h1{
+	font-size: 2.1rem;
+	line-height: 1.5;
+	font-style: italic;
+	font-weight: 600;
+	color: #fff;
+	position: relative;
+	transform: scale(0.94);
+  	animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
+}
+
+@keyframes scale {
+	100% {
+	  transform: scale(1);
+	}
+}
+
+
+
+
+.a-quote-text .fade-in {
+	animation: fadeIn 6s 0s forwards cubic-bezier(0.5, 0.7, 1, 4) infinite;
+	 -webkit-animation:fadeIn 6s 2s forwards cubic-bezier(0.5, 0.7, 1, 4) infinite;
+	-moz-animation: fadeIn 6s 2s forwards cubic-bezier(0.5, 0.7, 1, 4) infinite;
+	-o-animation: fadeIn 6s 2s forwards cubic-bezier(0.5, 0.7, 1, 4) infinite;
+	-ms-animation: fadeIn 6s 2s forwards cubic-bezier(0.5, 0.7, 1, 4) infinite;
+	
+     
+}
+
+@keyframes fadeIn {
+	0% {
+	  opacity: 0;
+	  
+	}
+
+	100% {
+	  opacity: 1;
+	  
+	}
+
+	
+}
+
+@-moz-keyframes fadeIn {
+	0% {
+	opacity: 0;
+	
+	}
+
+	100% {
+	opacity: 1;
+	
+	}
+}
+
+@-webkit-keyframes fadeIn {
+	0% {
+		opacity: 0;
+		
+	  }
+  
+	  100% {
+		opacity: 1;
+		
+	  }
+}
+
+@-o-keyframes fadeIn {
+	0% {
+		opacity: 0;
+		
+	  }
+  
+	  100% {
+		opacity: 1;
+		
+	  }
+}
+
+@-ms-keyframes fadeIn {
+	0% {
+		opacity: 0;
+		
+	  }
+  
+	  100% {
+		opacity: 1;
+		
+	  }
+}
+
+
 
 .quote-text {
 	border: 2px solid #ffc246;

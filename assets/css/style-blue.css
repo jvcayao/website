@@ -50,6 +50,14 @@
 =            Helper CSS            =
 =============================================*/
 
+.center-content {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start ;
+	align-items: center;
+	
+}
+
 .mapouter {
 	position: relative;
 	text-align: right;
@@ -4207,6 +4215,56 @@ input::placeholder {
 	-ms-flex-align: center;
 	align-items: center;
 }
+
+.heading-logo-text{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	justify-content: center;
+	word-spacing: 2px;
+    letter-spacing: 2.3px;
+
+	transform: scale(0.94);
+  	animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
+}
+
+.heading-logo-text span{
+	display: inline-block;
+	opacity: 0;
+	filter: blur(4px);
+	font-size: 0.8775em;
+	color: #2725fc;
+	font-weight: 500;
+	
+	
+}
+
+.heading-logo-text span:nth-child(1) {
+	animation: faders 0.8s 0.25s forwards cubic-bezier(0.11, 0, 0.5, 0);
+	
+}
+
+.heading-logo-text span:nth-child(2) {
+	animation: faders 0.8s 0.75s forwards cubic-bezier(0.11, 0, 0.5, 0);
+	
+}
+
+.heading-logo-text span:nth-child(3) {
+	animation: faders 0.8s 1.25s forwards cubic-bezier(0.11, 0, 0.5, 0);
+	
+}
+
+.heading-logo-text span:nth-child(4) {
+	animation: faders 0.8s 2s forwards cubic-bezier(0.11, 0, 0.5, 0);
+	
+}
+
+
 
 .get-quote-button-wrapper {
 	overflow: hidden;
@@ -11968,7 +12026,7 @@ a.scroll-top.show {
 }
 
 .single-case-study-project__content {
-	padding: 30px;
+	padding: 10px;
 }
 
 .single-case-study-project__content .title a {
